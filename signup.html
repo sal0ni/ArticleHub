@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+
+    <title>SignUp Page</title>
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/login.css">
+
+
+  </head>
+  <body class="text-center">
+    <div class="container">
+      <div class="row justify-content-center align-items-center" style="margin-top: 70px;">
+        <div class="col-lg-4 col-md-6 col-11">
+        <form class="form-signin" action="signup.php" method="post">
+      <img class="mb-4" src="img/favicon.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+      <label for="inputFirstName" class="sr-only">First Name</label>
+      <input type="text" name="firstname" class="form-control" placeholder="First Name" required autofocus>
+      <label for="inputLastName" class="sr-only">Last Name</label>
+      <input type="text" name="lastname" id="inputPassword" class="form-control my-2" placeholder="Last Name" required>
+      <label for="inputNumber" class="sr-only">Enroll No</label>
+      <input type="text" name="enrollno" class="form-control" placeholder="Enroll No" required maxlength="12" minlength="12" autofocus> 
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" name="password" id="inputPassword" class="form-control my-2" placeholder="Password" required>
+      <select name="branch" class="browser-default custom-select">
+        <option selected>Year</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+      </select>
+      <select name="year" class="browser-default custom-select my-2">
+        <option selected>Branch</option>
+        <option value="1">CO-M</option>
+        <option value="2">CO-E</option>
+      </select>
+      <button class="btn btn-lg btn-dark btn-block my-3" name="submit" type="submit">Signup</button>
+      <p class="my-3 mb-3 text-muted">&copy; 2020 Copyright ArticleHub.com. <br>All rights reserved.</p>
+    </form> 
+      </div>
+    </div>
+  </body>
+</html>

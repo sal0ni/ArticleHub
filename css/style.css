@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+
+*{
+	font-family: 'Jost', sans-serif;
+}
+
+.main {
+	height: 500px;
+}
+
+.mrb{
+	margin-top: 100px;
+}
+
+.bolded{
+	font-weight: 600;
+}
+
+.social-link {
+	color: #343a40!important;
+	font-size: 18px;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+label {
+	font-size: 18px;
+}
+
+img {
+	width: 100%;
+	overflow: hidden;
+	cursor: pointer;
+	
+}
+blockquote {
+	border-left: 5px solid #b7b7b7;
+	margin:5%;
+	padding:2%;
+	font-style: italic;
+}

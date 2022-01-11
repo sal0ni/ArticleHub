@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+
+    <title>Login Page</title>
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/login.css">
+
+
+  </head>
+  <body class="text-center">
+    <div class="container">
+      <div class="row justify-content-center align-items-center" style="margin-top: 130px;">
+        <div class="col-lg-4 col-md-6 col-11">
+        <form class="form-signin" action="login.php" method="post">
+      <img class="mb-4" src="img/favicon.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Login Form</h1>
+      <label for="inputNumber" class="sr-only" >Enroll No</label>
+      <input type="numbers" id="inputEmail" class="form-control" placeholder="Enroll No" name="enrollno" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control my-2" placeholder="Password" name="password" required>
+      <div class="my-3">
+        <label>
+          Don't have an account? <a href="signup.html">Signup</a>
+        </label>
+      </div>
+      <button class="btn btn-lg btn-dark btn-block" type="submit" id="login" name="login">Login</button>
+      <p class="my-3 mb-3 text-muted">&copy; 2020 Copyright ArticleHub.com. <br>All rights reserved.</p>
+    </form> 
+      </div>
+    </div>
+  </body>
+</html>
